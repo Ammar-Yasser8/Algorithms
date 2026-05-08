@@ -1,25 +1,35 @@
-/*
-Pattern Logic: Recursive Sum of Digits
---------------------------------------
-This example uses recursion to add the digits of a number.
+﻿/*
+Pattern Logic: Recursive Number Triangle
+---------------------------------------
+Recursion is used to build each row and each column of the pattern.
 
-Time Complexity: O(d) where d is the number of digits
-Space Complexity: O(d) due to recursion stack
+Time Complexity: O(n^2)
+Space Complexity: O(n) due to recursion stack
 */
 
-int number = 7531;
-int sum = SumDigits(number);
+int rows = 5;
 
-Console.WriteLine($"Sum of digits in {number} = {sum}");
+PrintRows(rows, 1);
 
-int SumDigits(int n)
+void PrintRows(int totalRows, int currentRow)
 {
-    n = Math.Abs(n);
-
-    if (n < 10)
+    if (currentRow > totalRows)
     {
-        return n;
+        return;
     }
 
-    return (n % 10) + SumDigits(n / 10);
+    PrintRow(currentRow, 1);
+    Console.WriteLine();
+    PrintRows(totalRows, currentRow + 1);
+}
+
+void PrintRow(int row, int column)
+{
+    if (column > row)
+    {
+        return;
+    }
+
+    Console.Write(column);
+    PrintRow(row, column + 1);
 }
