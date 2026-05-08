@@ -30,7 +30,7 @@ int ExponentialSearch(int[] array, int value)
     }
 
     int bound = 1;
-    while (bound < array.Length && array[bound] < value)
+    while (bound < array.Length && array[bound] <= value)
     {
         bound *= 2;
     }
