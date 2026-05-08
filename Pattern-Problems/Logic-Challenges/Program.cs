@@ -14,7 +14,7 @@ for (int i = 0; i < rows; i++)
     for (int j = 0; j <= i; j++)
     {
         Console.Write($"{value} ");
-        value = value * (i - j) / (j + 1);
+        value = (value * (i - j)) / (j + 1);
     }
 
     Console.WriteLine();
