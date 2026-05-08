@@ -30,6 +30,9 @@ HIET-Algorithm/
 ├── 🔍 Search Techniques/
 │   ├── Linear Search/
 │   ├── Binary Search/
+│   ├── Jump Search/
+│   ├── Interpolation Search/
+│   ├── Exponential Search/
 │   └── HashTable/
 │
 ├── 🔃 Sorting Techniques/
@@ -37,7 +40,9 @@ HIET-Algorithm/
 │   ├── Selection Sort/
 │   ├── Insertion Sort/
 │   ├── Merge Sort/
-│   └── Quick Sort/
+│   ├── Quick Sort/
+│   ├── Counting Sort/
+│   └── Heap Sort/
 │
 ├── ♻️ Recursion/
 │   ├── Basic-Problems/
@@ -61,6 +66,9 @@ Explore the foundations of searching — step-by-step.
 |-----------|--------|-------------|
 | **Linear Search** | `Search Techniques/Linear Search/` | Sequential search through elements |
 | **Binary Search** | `Search Techniques/Binary Search/` | Efficient search in sorted arrays |
+| **Jump Search** | `Search Techniques/Jump Search/` | Block-wise search in sorted arrays |
+| **Interpolation Search** | `Search Techniques/Interpolation Search/` | Estimated position search for sorted data |
+| **Exponential Search** | `Search Techniques/Exponential Search/` | Range finding + binary search |
 | **Hash Table** | `Search Techniques/HashTable/` | Key-value pair lookup |
 
 > 💡 Each folder contains code + examples for crystal-clear understanding.
@@ -77,6 +85,8 @@ From beginner level to advanced — sorted for your learning convenience.
 | **Insertion Sort** | O(n²) | `Sorting Techniques/Insertion Sort/` |
 | **Merge Sort** | O(n log n) | `Sorting Techniques/Merge Sort/` |
 | **Quick Sort** | O(n log n) | `Sorting Techniques/Quick Sort/` |
+| **Counting Sort** | O(n + k) | `Sorting Techniques/Counting Sort/` |
+| **Heap Sort** | O(n log n) | `Sorting Techniques/Heap Sort/` |
 
 **What's Included:**
 - ✅ Clean, documented code
