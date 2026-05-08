@@ -1,6 +1,6 @@
-﻿/*
-Recursive Sum of Digits
------------------------
+/*
+Pattern Logic: Recursive Sum of Digits
+--------------------------------------
 This example uses recursion to add the digits of a number.
 
 Time Complexity: O(d) where d is the number of digits
