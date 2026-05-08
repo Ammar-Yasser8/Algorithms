@@ -40,37 +40,37 @@ void Merge(int[] array, int left, int mid, int right)
     Array.Copy(array, left, leftArray, 0, leftSize);
     Array.Copy(array, mid + 1, rightArray, 0, rightSize);
 
-    int i = 0;
-    int j = 0;
-    int k = left;
+    int leftIndex = 0;
+    int rightIndex = 0;
+    int mergeIndex = left;
 
-    while (i < leftSize && j < rightSize)
+    while (leftIndex < leftSize && rightIndex < rightSize)
     {
-        if (leftArray[i] <= rightArray[j])
+        if (leftArray[leftIndex] <= rightArray[rightIndex])
         {
-            array[k] = leftArray[i];
-            i++;
+            array[mergeIndex] = leftArray[leftIndex];
+            leftIndex++;
         }
         else
         {
-            array[k] = rightArray[j];
-            j++;
+            array[mergeIndex] = rightArray[rightIndex];
+            rightIndex++;
         }
 
-        k++;
+        mergeIndex++;
     }
 
-    while (i < leftSize)
+    while (leftIndex < leftSize)
     {
-        array[k] = leftArray[i];
-        i++;
-        k++;
+        array[mergeIndex] = leftArray[leftIndex];
+        leftIndex++;
+        mergeIndex++;
     }
 
-    while (j < rightSize)
+    while (rightIndex < rightSize)
     {
-        array[k] = rightArray[j];
-        j++;
-        k++;
+        array[mergeIndex] = rightArray[rightIndex];
+        rightIndex++;
+        mergeIndex++;
     }
 }
