@@ -27,17 +27,17 @@ This repo is divided into **topic-based folders**, each containing sub-folders f
 ```
 HIET-Algorithm/
 │
-├── 🔍 Search-Techniques/
-│   ├── Linear-Search/
-│   ├── Binary-Search/
+├── 🔍 Search Techniques/
+│   ├── Linear Search/
+│   ├── Binary Search/
 │   └── HashTable/
 │
-├── 🔃 Sorting/
-│   ├── Bubble-Sort/
-│   ├── Selection-Sort/
-│   ├── Insertion-Sort/
-│   ├── Merge-Sort/
-│   └── Quick-Sort/
+├── 🔃 Sorting Techniques/
+│   ├── Bubble Sort/
+│   ├── Selection Sort/
+│   ├── Insertion Sort/
+│   ├── Merge Sort/
+│   └── Quick Sort/
 │
 ├── ♻️ Recursion/
 │   ├── Basic-Problems/
@@ -59,9 +59,9 @@ Explore the foundations of searching — step-by-step.
 
 | Algorithm | Folder | Description |
 |-----------|--------|-------------|
-| **Linear Search** | `Search-Techniques/Linear-Search/` | Sequential search through elements |
-| **Binary Search** | `Search-Techniques/Binary-Search/` | Efficient search in sorted arrays |
-| **Hash Table** | `Search-Techniques/HashTable/` | Key-value pair lookup |
+| **Linear Search** | `Search Techniques/Linear Search/` | Sequential search through elements |
+| **Binary Search** | `Search Techniques/Binary Search/` | Efficient search in sorted arrays |
+| **Hash Table** | `Search Techniques/HashTable/` | Key-value pair lookup |
 
 > 💡 Each folder contains code + examples for crystal-clear understanding.
 
@@ -72,11 +72,11 @@ From beginner level to advanced — sorted for your learning convenience.
 
 | Algorithm | Complexity (Avg) | Folder |
 |-----------|------------------|--------|
-| **Bubble Sort** | O(n²) | `Sorting/Bubble-Sort/` |
-| **Selection Sort** | O(n²) | `Sorting/Selection-Sort/` |
-| **Insertion Sort** | O(n²) | `Sorting/Insertion-Sort/` |
-| **Merge Sort** | O(n log n) | `Sorting/Merge-Sort/` |
-| **Quick Sort** | O(n log n) | `Sorting/Quick-Sort/` |
+| **Bubble Sort** | O(n²) | `Sorting Techniques/Bubble Sort/` |
+| **Selection Sort** | O(n²) | `Sorting Techniques/Selection Sort/` |
+| **Insertion Sort** | O(n²) | `Sorting Techniques/Insertion Sort/` |
+| **Merge Sort** | O(n log n) | `Sorting Techniques/Merge Sort/` |
+| **Quick Sort** | O(n log n) | `Sorting Techniques/Quick Sort/` |
 
 **What's Included:**
 - ✅ Clean, documented code
