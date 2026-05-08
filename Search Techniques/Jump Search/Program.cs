@@ -19,8 +19,13 @@ Console.WriteLine(index >= 0
 
 int JumpSearch(int[] array, int value)
 {
+    if (array.Length == 0)
+    {
+        return -1;
+    }
+
     int length = array.Length;
-    int step = (int)Math.Floor(Math.Sqrt(length));
+    int step = Math.Max(1, (int)Math.Floor(Math.Sqrt(length)));
     int prev = 0;
 
     while (prev < length && array[Math.Min(step, length) - 1] < value)

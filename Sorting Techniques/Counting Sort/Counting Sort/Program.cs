@@ -20,6 +20,13 @@ void CountingSort(int[] array)
         return;
     }
 
+    int minValue = array.Min();
+    if (minValue < 0)
+    {
+        Console.WriteLine("Counting sort requires non-negative integers.");
+        return;
+    }
+
     int maxValue = array.Max();
     int[] counts = new int[maxValue + 1];
 
