@@ -25,13 +25,14 @@ int JumpSearch(int[] array, int value)
     }
 
     int length = array.Length;
-    int step = Math.Max(1, (int)Math.Floor(Math.Sqrt(length)));
+    int jumpSize = Math.Max(1, (int)Math.Sqrt(length));
+    int step = jumpSize;
     int prev = 0;
 
     while (prev < length && array[Math.Min(step, length) - 1] < value)
     {
         prev = step;
-        step += (int)Math.Floor(Math.Sqrt(length));
+        step += jumpSize;
 
         if (prev >= length)
         {

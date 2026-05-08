@@ -23,7 +23,7 @@ void CountingSort(int[] array)
     int minValue = array.Min();
     if (minValue < 0)
     {
-        Console.WriteLine("Counting sort requires non-negative integers.");
+        Console.WriteLine("Error: Counting sort requires non-negative integers. Array contains negative values and cannot be sorted.");
         return;
     }
 

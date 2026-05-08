@@ -24,7 +24,9 @@ void HeapSort(int[] array)
 
     for (int i = length - 1; i > 0; i--)
     {
-        (array[0], array[i]) = (array[i], array[0]);
+        int temp = array[0];
+        array[0] = array[i];
+        array[i] = temp;
         Heapify(array, i, 0);
     }
 }
@@ -47,7 +49,9 @@ void Heapify(int[] array, int length, int rootIndex)
 
     if (largest != rootIndex)
     {
-        (array[rootIndex], array[largest]) = (array[largest], array[rootIndex]);
+        int temp = array[rootIndex];
+        array[rootIndex] = array[largest];
+        array[largest] = temp;
         Heapify(array, length, largest);
     }
 }

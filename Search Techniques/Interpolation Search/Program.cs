@@ -29,8 +29,9 @@ int InterpolationSearch(int[] array, int value)
             return array[low] == value ? low : -1;
         }
 
-        int position = low + (int)((double)(high - low) * (value - array[low])
-            / (array[high] - array[low]));
+        long numerator = (long)(high - low) * (value - array[low]);
+        long denominator = array[high] - array[low];
+        int position = low + (int)(numerator / denominator);
 
         if (array[position] == value)
         {
