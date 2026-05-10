@@ -1,11 +1,17 @@
-﻿/*
-Jump Search Algorithm
----------------------
-Jump search works on sorted arrays by jumping ahead fixed steps,
-then performing a linear search within the identified block.
-
-Time Complexity: O(√n)
+/*
+Algorithm: Jump Search
+Time Complexity:
+  Best: O(1)
+  Average: O(√n)
+  Worst: O(√n)
 Space Complexity: O(1)
+Example:
+  Input: numbers = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21], target = 15
+  Output: index = 7
+LeetCode:
+  - https://leetcode.com/problems/search-in-rotated-sorted-array/
+  - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+  - https://leetcode.com/problems/search-insert-position/
 */
 
 int[] numbers = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21 };

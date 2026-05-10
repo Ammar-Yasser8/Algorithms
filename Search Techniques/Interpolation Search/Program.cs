@@ -1,11 +1,17 @@
-﻿/*
-Interpolation Search Algorithm
-------------------------------
-Interpolation search estimates the position of the target based on
-value distribution in a sorted array.
-
-Time Complexity: O(log log n) average, O(n) worst-case
+/*
+Algorithm: Interpolation Search
+Time Complexity:
+  Best: O(1)
+  Average: O(log log n)
+  Worst: O(n)
 Space Complexity: O(1)
+Example:
+  Input: numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100], target = 70
+  Output: index = 6
+LeetCode:
+  - https://leetcode.com/problems/guess-number-higher-or-lower/
+  - https://leetcode.com/problems/binary-search/
+  - https://leetcode.com/problems/search-insert-position/
 */
 
 int[] numbers = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };

@@ -1,10 +1,17 @@
-﻿/*
-Counting Sort Algorithm
------------------------
-Counting sort is efficient for integers within a known small range.
-
-Time Complexity: O(n + k)
+/*
+Algorithm: Counting Sort
+Time Complexity:
+  Best: O(n + k)
+  Average: O(n + k)
+  Worst: O(n + k)
 Space Complexity: O(k)
+Example:
+  Input: [4, 2, 2, 8, 3, 3, 1]
+  Output: [1, 2, 2, 3, 3, 4, 8]
+LeetCode:
+  - https://leetcode.com/problems/sort-colors/
+  - https://leetcode.com/problems/relative-sort-array/
+  - https://leetcode.com/problems/height-checker/
 */
 
 int[] numbers = { 4, 2, 2, 8, 3, 3, 1 };

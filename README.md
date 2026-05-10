@@ -44,6 +44,28 @@ HIET-Algorithm/
 │   ├── Counting Sort/
 │   └── Heap Sort/
 │
+├── 👉 Two Pointers/
+│   ├── Two Sum/
+│   ├── Remove Duplicates/
+│   └── Container With Most Water/
+│
+├── 🪟 Sliding Window/
+│   ├── Max Subarray K/
+│   ├── Longest Substring/
+│   └── Minimum Window Substring/
+│
+├── 🧠 Dynamic Programming/
+│   ├── Fibonacci/
+│   ├── 0-1 Knapsack/
+│   ├── Coin Change/
+│   └── Longest Common Subsequence/
+│
+├── 🌐 Graph Algorithms/
+│   ├── BFS/
+│   ├── DFS/
+│   ├── Dijkstra/
+│   └── Union-Find/
+│
 ├── ♻️ Recursion/
 │   ├── Basic-Problems/
 │   ├── Pattern-Logic/
@@ -62,14 +84,14 @@ HIET-Algorithm/
 ### 🔍 Search Techniques
 Explore the foundations of searching — step-by-step.
 
-| Algorithm | Folder | Description |
-|-----------|--------|-------------|
-| **Linear Search** | `Search Techniques/Linear Search/` | Sequential search through elements |
-| **Binary Search** | `Search Techniques/Binary Search/` | Efficient search in sorted arrays |
-| **Jump Search** | `Search Techniques/Jump Search/` | Block-wise search in sorted arrays |
-| **Interpolation Search** | `Search Techniques/Interpolation Search/` | Estimated position search for sorted data |
-| **Exponential Search** | `Search Techniques/Exponential Search/` | Range finding + binary search |
-| **Hash Table** | `Search Techniques/HashTable/` | Key-value pair lookup |
+| Algorithm | Best | Average | Worst | Space | Folder |
+|-----------|------|---------|-------|-------|--------|
+| **Linear Search** | O(1) | O(n) | O(n) | O(1) | `Search Techniques/Linear Search/` |
+| **Binary Search** | O(1) | O(log n) | O(log n) | O(1) | `Search Techniques/Binary Search/` |
+| **Jump Search** | O(1) | O(√n) | O(√n) | O(1) | `Search Techniques/Jump Search/` |
+| **Interpolation Search** | O(1) | O(log log n) | O(n) | O(1) | `Search Techniques/Interpolation Search/` |
+| **Exponential Search** | O(1) | O(log n) | O(log n) | O(1) | `Search Techniques/Exponential Search/` |
+| **Hash Table (Chaining)** | O(1) | O(1) | O(n) | O(n + b) | `Search Techniques/HashTable/` |
 
 > 💡 Each folder contains code + examples for crystal-clear understanding.
 
@@ -78,21 +100,68 @@ Explore the foundations of searching — step-by-step.
 ### 🔃 Sorting Algorithms
 From beginner level to advanced — sorted for your learning convenience.
 
-| Algorithm | Complexity (Avg) | Folder |
-|-----------|------------------|--------|
-| **Bubble Sort** | O(n²) | `Sorting Techniques/Bubble Sort/` |
-| **Selection Sort** | O(n²) | `Sorting Techniques/Selection Sort/` |
-| **Insertion Sort** | O(n²) | `Sorting Techniques/Insertion Sort/` |
-| **Merge Sort** | O(n log n) | `Sorting Techniques/Merge Sort/` |
-| **Quick Sort** | O(n log n) | `Sorting Techniques/Quick Sort/` |
-| **Counting Sort** | O(n + k) | `Sorting Techniques/Counting Sort/` |
-| **Heap Sort** | O(n log n) | `Sorting Techniques/Heap Sort/` |
+| Algorithm | Best | Average | Worst | Space | Stable | Folder |
+|-----------|------|---------|-------|-------|--------|--------|
+| **Bubble Sort** | O(n) | O(n²) | O(n²) | O(1) | ✅ | `Sorting Techniques/Bubble Sort/` |
+| **Selection Sort** | O(n²) | O(n²) | O(n²) | O(1) | ❌ | `Sorting Techniques/Selection Sort/` |
+| **Insertion Sort** | O(n) | O(n²) | O(n²) | O(1) | ✅ | `Sorting Techniques/Insertion Sort/` |
+| **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) | ✅ | `Sorting Techniques/Merge Sort/` |
+| **Quick Sort** | O(n log n) | O(n log n) | O(n²) | O(log n) | ❌ | `Sorting Techniques/Quick Sort/` |
+| **Counting Sort** | O(n + k) | O(n + k) | O(n + k) | O(k) | ✅ | `Sorting Techniques/Counting Sort/` |
+| **Heap Sort** | O(n log n) | O(n log n) | O(n log n) | O(1) | ❌ | `Sorting Techniques/Heap Sort/` |
 
 **What's Included:**
 - ✅ Clean, documented code
 - ✅ Dry-run comments
 - ✅ Time & space complexity analysis
 - ✅ Real-world examples
+- ✅ LeetCode problem links
+
+---
+
+### 👉 Two Pointers
+Efficient scans from both ends of a sorted or constrained array.
+
+| Algorithm | Folder | Description |
+|-----------|--------|-------------|
+| **Two Sum (Sorted Array)** | `Two Pointers/Two Sum/` | Pair search with left/right pointers |
+| **Remove Duplicates** | `Two Pointers/Remove Duplicates/` | In-place compaction of unique values |
+| **Container With Most Water** | `Two Pointers/Container With Most Water/` | Max area between vertical lines |
+
+---
+
+### 🪟 Sliding Window
+Maintain a moving window to optimize subarray/subsequence problems.
+
+| Algorithm | Folder | Description |
+|-----------|--------|-------------|
+| **Max Subarray Sum (Fixed Window)** | `Sliding Window/Max Subarray K/` | Max sum of k consecutive elements |
+| **Longest Substring Without Repeats** | `Sliding Window/Longest Substring/` | Variable window for unique characters |
+| **Minimum Window Substring** | `Sliding Window/Minimum Window Substring/` | Smallest window containing all chars |
+
+---
+
+### 🧠 Dynamic Programming
+Core DP building blocks for common interview patterns.
+
+| Algorithm | Folder | Description |
+|-----------|--------|-------------|
+| **Fibonacci (Memo/Tab)** | `Dynamic Programming/Fibonacci/` | Top-down and bottom-up Fibonacci |
+| **0/1 Knapsack** | `Dynamic Programming/0-1 Knapsack/` | Max value under weight capacity |
+| **Coin Change** | `Dynamic Programming/Coin Change/` | Minimum coins for target amount |
+| **Longest Common Subsequence** | `Dynamic Programming/Longest Common Subsequence/` | Sequence alignment length |
+
+---
+
+### 🌐 Graph Algorithms
+Traverse and optimize paths over vertices and edges.
+
+| Algorithm | Folder | Description |
+|-----------|--------|-------------|
+| **BFS** | `Graph Algorithms/BFS/` | Level-order traversal with queue |
+| **DFS** | `Graph Algorithms/DFS/` | Depth-first traversal with recursion |
+| **Dijkstra** | `Graph Algorithms/Dijkstra/` | Shortest paths on weighted graphs |
+| **Union-Find (DSU)** | `Graph Algorithms/Union-Find/` | Connectivity with disjoint sets |
 
 ---
 
@@ -136,10 +205,10 @@ Because learning algorithms shouldn't feel like fighting dragons! 🐉
 
 | Feature | Status |
 |---------|--------|
-| Two Pointers Technique | ⏳ In Progress |
-| Sliding Window | ⏳ In Progress |
-| Dynamic Programming | 🔥 Coming Soon |
-| Graph Algorithms | 📅 Planned |
+| Two Pointers Technique | ✅ Done |
+| Sliding Window | ✅ Done |
+| Dynamic Programming | ✅ Done |
+| Graph Algorithms | ✅ Done |
 | Greedy Algorithms | 📅 Planned |
 | DSA Cheatsheets | 🚀 Coming Soon |
 | Code with Diagrams | ✨ Planned |

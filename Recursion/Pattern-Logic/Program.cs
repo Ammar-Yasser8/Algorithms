@@ -1,10 +1,21 @@
-﻿/*
-Pattern Logic: Recursive Number Triangle
----------------------------------------
-Recursion is used to build each row and each column of the pattern.
-
-Time Complexity: O(n^2)
-Space Complexity: O(n) due to recursion stack
+/*
+Algorithm: Recursive Number Triangle
+Time Complexity:
+  Best: O(n^2)
+  Average: O(n^2)
+  Worst: O(n^2)
+Space Complexity: O(n)
+Example:
+  Input: rows = 4
+  Output:
+    1
+    12
+    123
+    1234
+LeetCode:
+  - https://leetcode.com/problems/pascals-triangle/
+  - https://leetcode.com/problems/pascals-triangle-ii/
+  - https://leetcode.com/problems/triangle/
 */
 
 int rows = 5;

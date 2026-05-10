@@ -1,48 +1,59 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
+/*
+Algorithm: Hash Table (Chaining)
+Time Complexity:
+  Best: O(1) for insert/find
+  Average: O(1) for insert/find
+  Worst: O(n) for insert/find
+Space Complexity: O(n + b)
+Example:
+  Input: keys = [21, 22, 32] into 10 buckets
+  Output: bucket 1 -> 21, bucket 2 -> 22, 32
+LeetCode:
+  - https://leetcode.com/problems/two-sum/
+  - https://leetcode.com/problems/group-anagrams/
+  - https://leetcode.com/problems/contains-duplicate/
+*/
 
 namespace HashTable
 {
     public class Hash
     {
-        int buckets; // size of the hash table
-        List<int>[] table; // the hash table itself
+        int buckets;
+        List<int>[] table;
 
-        // intialize the hash table with a given number of buckets
         public Hash(int V)
         {
-            this.buckets = V;
+            buckets = V;
             table = new List<int>[buckets];
             for (int i = 0; i < buckets; i++)
+            {
                 table[i] = new List<int>();
+            }
         }
 
-        // Hash fubcation to map values to key
         public int HashFunction(int key)
         {
             return key % buckets;
         }
-        // Insert a key into the hash table
+
         public void Insert(int key)
         {
             int index = HashFunction(key);
             table[index].Add(key);
         }
-        // Displays the hash table
+
         public void displayHash()
         {
             for (int i = 0; i < buckets; i++)
             {
                 Console.Write(i + " --> ");
                 foreach (int x in table[i])
+                {
                     Console.Write(x + " ");
+                }
+
                 Console.WriteLine();
             }
         }
-
     }
 }

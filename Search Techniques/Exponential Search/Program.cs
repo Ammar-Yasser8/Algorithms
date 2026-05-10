@@ -1,11 +1,17 @@
-﻿/*
-Exponential Search Algorithm
-----------------------------
-Exponential search finds a range where the target could exist by doubling
-indices, then applies binary search on that range.
-
-Time Complexity: O(log n)
+/*
+Algorithm: Exponential Search
+Time Complexity:
+  Best: O(1)
+  Average: O(log n)
+  Worst: O(log n)
 Space Complexity: O(1)
+Example:
+  Input: numbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22], target = 14
+  Output: index = 6
+LeetCode:
+  - https://leetcode.com/problems/binary-search/
+  - https://leetcode.com/problems/search-insert-position/
+  - https://leetcode.com/problems/first-bad-version/
 */
 
 int[] numbers = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22 };
