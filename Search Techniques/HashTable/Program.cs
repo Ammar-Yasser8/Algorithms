@@ -50,7 +50,7 @@ LeetCode:
 //42 % 10 = 2 -> index 2 (collision)
 
 
-//  I will make a Hash Class and it`s methods to handle collisions using chaining.
+//  I will make a Hash Class and its methods to handle collisions using chaining.
 
 using HashTable;
 
