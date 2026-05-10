@@ -102,7 +102,7 @@ From beginner level to advanced — sorted for your learning convenience.
 
 | Algorithm | Best | Average | Worst | Space | Stable | Folder |
 |-----------|------|---------|-------|-------|--------|--------|
-| **Bubble Sort** | O(n²) | O(n²) | O(n²) | O(1) | ✅ | `Sorting Techniques/Bubble Sort/` |
+| **Bubble Sort** | O(n) | O(n²) | O(n²) | O(1) | ✅ | `Sorting Techniques/Bubble Sort/` |
 | **Selection Sort** | O(n²) | O(n²) | O(n²) | O(1) | ❌ | `Sorting Techniques/Selection Sort/` |
 | **Insertion Sort** | O(n) | O(n²) | O(n²) | O(1) | ✅ | `Sorting Techniques/Insertion Sort/` |
 | **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) | ✅ | `Sorting Techniques/Merge Sort/` |
