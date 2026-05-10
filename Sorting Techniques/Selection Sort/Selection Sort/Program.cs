@@ -1,17 +1,17 @@
-﻿/*
-Selection Sort Algorithm
-------------------------
-Selection sort repeatedly picks the smallest value from the unsorted portion
-and places it at the beginning of the array.
-
-Steps:
-1) Assume the first element is the minimum.
-2) Scan the remaining elements to find the actual minimum.
-3) Swap the minimum with the first unsorted position.
-4) Move the boundary forward and repeat.
-
-Time Complexity: O(n^2) in all cases
+/*
+Algorithm: Selection Sort
+Time Complexity:
+  Best: O(n^2)
+  Average: O(n^2)
+  Worst: O(n^2)
 Space Complexity: O(1)
+Example:
+  Input: [64, 25, 12, 22, 11]
+  Output: [11, 12, 22, 25, 64]
+LeetCode:
+  - https://leetcode.com/problems/sort-an-array/
+  - https://leetcode.com/problems/relative-sort-array/
+  - https://leetcode.com/problems/sort-array-by-increasing-frequency/
 */
 
 int[] numbers = { 64, 25, 12, 22, 11 };

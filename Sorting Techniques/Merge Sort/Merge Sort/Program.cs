@@ -1,13 +1,17 @@
-﻿/*
-Merge Sort Algorithm
---------------------
-Merge sort uses the divide-and-conquer strategy:
-1) Split the array into two halves.
-2) Recursively sort each half.
-3) Merge the two sorted halves.
-
-Time Complexity: O(n log n)
-Space Complexity: O(n) due to temporary arrays during merge.
+/*
+Algorithm: Merge Sort
+Time Complexity:
+  Best: O(n log n)
+  Average: O(n log n)
+  Worst: O(n log n)
+Space Complexity: O(n)
+Example:
+  Input: [38, 27, 43, 3, 9, 82, 10]
+  Output: [3, 9, 10, 27, 38, 43, 82]
+LeetCode:
+  - https://leetcode.com/problems/sort-an-array/
+  - https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+  - https://leetcode.com/problems/reverse-pairs/
 */
 
 int[] numbers = { 38, 27, 43, 3, 9, 82, 10 };

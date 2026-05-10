@@ -1,10 +1,17 @@
-﻿/*
-Heap Sort Algorithm
--------------------
-Heap sort builds a max heap and repeatedly extracts the maximum element.
-
-Time Complexity: O(n log n)
+/*
+Algorithm: Heap Sort
+Time Complexity:
+  Best: O(n log n)
+  Average: O(n log n)
+  Worst: O(n log n)
 Space Complexity: O(1)
+Example:
+  Input: [12, 11, 13, 5, 6, 7]
+  Output: [5, 6, 7, 11, 12, 13]
+LeetCode:
+  - https://leetcode.com/problems/kth-largest-element-in-an-array/
+  - https://leetcode.com/problems/top-k-frequent-elements/
+  - https://leetcode.com/problems/merge-k-sorted-lists/
 */
 
 int[] numbers = { 12, 11, 13, 5, 6, 7 };

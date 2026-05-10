@@ -1,10 +1,17 @@
-﻿/*
-Divide and Conquer: Maximum Element
------------------------------------
-We recursively split the array and compute the maximum of each half.
-
-Time Complexity: O(n)
-Space Complexity: O(log n) due to recursion stack
+/*
+Algorithm: Maximum Element (Divide and Conquer)
+Time Complexity:
+  Best: O(n)
+  Average: O(n)
+  Worst: O(n)
+Space Complexity: O(log n)
+Example:
+  Input: [12, 5, 18, 7, 25, 3, 16]
+  Output: 25
+LeetCode:
+  - https://leetcode.com/problems/maximum-subarray/
+  - https://leetcode.com/problems/majority-element/
+  - https://leetcode.com/problems/kth-largest-element-in-an-array/
 */
 
 int[] numbers = { 12, 5, 18, 7, 25, 3, 16 };

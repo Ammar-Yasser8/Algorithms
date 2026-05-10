@@ -1,11 +1,27 @@
-﻿//        HashTable<TKey, TValue> is a type of data structure that stores key-value pairs.
+/*
+Algorithm: Hash Table (Chaining)
+Time Complexity:
+  Best: O(1) for insert/find
+  Average: O(1) for insert/find
+  Worst: O(n) for insert/find
+Space Complexity: O(n + b)
+Example:
+  Input: keys = [21, 22, 32, 42] into 10 buckets
+  Output: bucket 1 -> 21, bucket 2 -> 22, 32, 42
+LeetCode:
+  - https://leetcode.com/problems/two-sum/
+  - https://leetcode.com/problems/group-anagrams/
+  - https://leetcode.com/problems/contains-duplicate/
+*/
+
+//        HashTable<TKey, TValue> is a type of data structure that stores key-value pairs.
 //        It allows for efficient retrieval, insertion, and deletion of values based on their associated keys.
 //*/
 
 //// to get O(1) average time complexity for lookups, insertions, and deletions.
 
 
-//// Create a new hash table. 
+//// Create a new hash table.
 //using System.Collections;
 
 //Hashtable openWith = new Hashtable();
@@ -38,20 +54,12 @@
 
 using HashTable;
 
-///* 
 int[] a = { 21, 22, 32, 42, 53, 64, 75, 86, 97, 108 };
 int n = a.Length;
 Hash h = new Hash(10);
 for (int i = 0; i < n; i++)
+{
     h.Insert(a[i]);
+}
+
 h.displayHash();
-
-
-
-
-
-
-
-
-
-

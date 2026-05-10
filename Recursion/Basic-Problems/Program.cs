@@ -1,10 +1,17 @@
-﻿/*
-Factorial Using Recursion
-------------------------
-Recursion breaks the problem into smaller versions until it hits a base case.
-
-Time Complexity: O(n)
-Space Complexity: O(n) due to recursion stack
+/*
+Algorithm: Factorial (Recursion)
+Time Complexity:
+  Best: O(n)
+  Average: O(n)
+  Worst: O(n)
+Space Complexity: O(n)
+Example:
+  Input: n = 5
+  Output: 120
+LeetCode:
+  - https://leetcode.com/problems/fibonacci-number/
+  - https://leetcode.com/problems/climbing-stairs/
+  - https://leetcode.com/problems/powx-n/
 */
 
 int number = 5;

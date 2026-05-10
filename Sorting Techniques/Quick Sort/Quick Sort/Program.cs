@@ -1,13 +1,17 @@
-﻿/*
-Quick Sort Algorithm
---------------------
-Quick sort selects a pivot and partitions the array so that elements smaller
-than the pivot are on the left and larger elements are on the right.
-It then recursively sorts the partitions.
-
-Average Time Complexity: O(n log n)
-Worst Time Complexity: O(n^2) when the pivot choices are poor
-Space Complexity: O(log n) due to recursion stack
+/*
+Algorithm: Quick Sort
+Time Complexity:
+  Best: O(n log n)
+  Average: O(n log n)
+  Worst: O(n^2)
+Space Complexity: O(log n)
+Example:
+  Input: [10, 7, 8, 9, 1, 5]
+  Output: [1, 5, 7, 8, 9, 10]
+LeetCode:
+  - https://leetcode.com/problems/sort-an-array/
+  - https://leetcode.com/problems/kth-largest-element-in-an-array/
+  - https://leetcode.com/problems/top-k-frequent-elements/
 */
 
 int[] numbers = { 10, 7, 8, 9, 1, 5 };
