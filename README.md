@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 HIET-Algorithm
+# 🚀 Algorithms
 
 ### Master Algorithms the Smart, Structured & Fun Way!
 
@@ -25,7 +25,7 @@ This repo is divided into **topic-based folders**, each containing sub-folders f
 ## 🗂️ Repository Structure
 
 ```
-HIET-Algorithm/
+Algorithms/
 │
 ├── 🔍 Search Techniques/
 │   ├── Linear Search/
